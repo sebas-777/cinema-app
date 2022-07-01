@@ -10,7 +10,7 @@ import { PeliculaService } from './pelicula.service';
   styleUrls: ['./pelicula.component.css']
 })
 export class PeliculaComponent implements OnInit {
-
+  title = 'EN CARTELERA';
   pelicula!: Pelicula[];
 
   constructor(private peliculaService: PeliculaService) { }

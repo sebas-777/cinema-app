@@ -9,9 +9,12 @@ import { PeliculaService } from '../pelicula/pelicula.service';
 export class ReservaComponent implements OnInit {
 
 
-  constructor(private peliculaService:PeliculaService) { }
+  constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+
+
+
   }
 
 }
